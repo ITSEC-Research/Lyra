@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-08-28T09:59:27.852804+07:00",
+  "last_updated": "2025-08-28T10:37:36.280371+07:00",
   "total_categories": 4,
   "categories": {
     "gambling": {
@@ -8,16 +8,16 @@
       "total_domains": 2066768,
       "sources": 11,
       "successful_sources": 11,
-      "last_updated": "2025-08-28T09:58:34.863426+07:00",
+      "last_updated": "2025-08-28T10:36:42.460643+07:00",
       "output_file": "gambling.txt"
     },
     "suspicious": {
       "name": "Suspicious",
       "description": "Suspicious or potentially unwanted domains (phishing, scam, questionable reputation)",
-      "total_domains": 443193,
+      "total_domains": 443196,
       "sources": 12,
       "successful_sources": 12,
-      "last_updated": "2025-08-28T09:58:50.990122+07:00",
+      "last_updated": "2025-08-28T10:37:00.218324+07:00",
       "output_file": "suspicious.txt"
     },
     "malicious": {
@@ -26,7 +26,7 @@
       "total_domains": 930564,
       "sources": 12,
       "successful_sources": 12,
-      "last_updated": "2025-08-28T09:59:05.261382+07:00",
+      "last_updated": "2025-08-28T10:37:13.531103+07:00",
       "output_file": "malicious.txt"
     },
     "adult": {
@@ -35,12 +35,12 @@
       "total_domains": 874868,
       "sources": 9,
       "successful_sources": 9,
-      "last_updated": "2025-08-28T09:59:27.701066+07:00",
+      "last_updated": "2025-08-28T10:37:36.098726+07:00",
       "output_file": "adult.txt"
     }
   },
   "summary": {
-    "total_domains": 4315393,
+    "total_domains": 4315396,
     "total_sources": 44,
     "successful_sources": 44
   }
