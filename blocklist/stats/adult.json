@@ -2,7 +2,7 @@
   "category": "adult",
   "name": "Adult",
   "description": "Adult and pornographic content domains",
-  "last_updated": "2025-08-29T01:23:40.415602+07:00",
+  "last_updated": "2025-08-29T02:14:24.491517+07:00",
   "output_file": "adult.txt",
   "total_sources": 9,
   "successful_sources": 9,
@@ -10,7 +10,7 @@
     "firebog_adult": {
       "url": "https://v.firebog.net/hosts/Prigent-Adult.txt",
       "total_raw": 4643445,
-      "last_updated": "2025-08-29T01:23:14.308937+07:00",
+      "last_updated": "2025-08-29T02:13:57.006124+07:00",
       "status": "success",
       "total_normalized": 658383,
       "priority_count": 0
@@ -18,7 +18,7 @@
     "blocklistproject_porn": {
       "url": "https://blocklistproject.github.io/Lists/porn.txt",
       "total_raw": 500303,
-      "last_updated": "2025-08-29T01:23:17.230261+07:00",
+      "last_updated": "2025-08-29T02:13:59.268452+07:00",
       "status": "success",
       "total_normalized": 265285,
       "priority_count": 0
@@ -26,7 +26,7 @@
     "stevenblack_adult": {
       "url": "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts",
       "total_raw": 315829,
-      "last_updated": "2025-08-29T01:23:17.739788+07:00",
+      "last_updated": "2025-08-29T02:13:59.577350+07:00",
       "status": "success",
       "total_normalized": 138773,
       "priority_count": 0
@@ -34,7 +34,7 @@
     "adguard_parental": {
       "url": "https://filters.adtidy.org/windows/filters/10.txt",
       "total_raw": 370,
-      "last_updated": "2025-08-29T01:23:17.975280+07:00",
+      "last_updated": "2025-08-29T02:13:59.922378+07:00",
       "status": "success",
       "total_normalized": 14,
       "priority_count": 0
@@ -42,7 +42,7 @@
     "firebog_adult2": {
       "url": "https://v.firebog.net/hosts/Easylist.txt",
       "total_raw": 35685,
-      "last_updated": "2025-08-29T01:23:18.325143+07:00",
+      "last_updated": "2025-08-29T02:14:00.383198+07:00",
       "status": "success",
       "total_normalized": 33894,
       "priority_count": 0
@@ -50,7 +50,7 @@
     "chadmayfield_porn_top1m": {
       "url": "https://raw.githubusercontent.com/chadmayfield/my-pihole-blocklists/master/lists/pi_blocklist_porn_top1m.list",
       "total_raw": 11868,
-      "last_updated": "2025-08-29T01:23:18.953524+07:00",
+      "last_updated": "2025-08-29T02:14:01.195137+07:00",
       "status": "success",
       "total_normalized": 5798,
       "priority_count": 0
@@ -58,7 +58,7 @@
     "firebog_adult3": {
       "url": "https://v.firebog.net/hosts/AdguardDNS.txt",
       "total_raw": 131626,
-      "last_updated": "2025-08-29T01:23:19.076621+07:00",
+      "last_updated": "2025-08-29T02:14:01.266684+07:00",
       "status": "success",
       "total_normalized": 51906,
       "priority_count": 0
@@ -66,7 +66,7 @@
     "tiuxo_adult": {
       "url": "https://raw.githubusercontent.com/tiuxo/hosts/master/porn",
       "total_raw": 369,
-      "last_updated": "2025-08-29T01:23:19.736930+07:00",
+      "last_updated": "2025-08-29T02:14:02.361976+07:00",
       "status": "success",
       "total_normalized": 122,
       "priority_count": 0
@@ -74,7 +74,7 @@
     "hagezi_adblock_nsfw": {
       "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/nsfw.txt",
       "total_raw": 95679,
-      "last_updated": "2025-08-29T01:23:19.785542+07:00",
+      "last_updated": "2025-08-29T02:14:02.525340+07:00",
       "status": "success",
       "total_normalized": 91895,
       "priority_count": 0
