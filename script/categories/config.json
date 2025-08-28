@@ -1,0 +1,86 @@
+{
+  "categories": {
+    "gambling": {
+      "name": "Gambling",
+      "description": "Gambling and betting domains blocklist",
+      "output_file": "gambling.txt",
+      "priority_keywords": [],
+      "sources": {
+        "hagezi_gambling": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/gambling-onlydomains.txt",
+        "stevenblack_gambling": "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts",
+        "blocklistproject_gambling": "https://blocklistproject.github.io/Lists/gambling.txt",
+        "adguard_gambling": "https://filters.adtidy.org/windows/filters/16.txt",
+        "disconnect_gambling": "https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt",
+        "masji_pihole_polish_gambling": "https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/gambling-hosts.txt",
+        "someonewhocares_gambling": "https://someonewhocares.org/hosts/zero/hosts",
+        "trustpositif_id": "https://raw.githubusercontent.com/alsyundawy/TrustPositif/main/gambling_indonesia.txt",
+        "winhelp2002_gambling": "https://winhelp2002.mvps.org/hosts.txt",
+        "adaway_hosts": "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/BaseFilter/sections/adservers.txt",
+        "hagezi_adblock_gambling": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/gambling.txt"
+      }
+    },
+    "suspicious": {
+      "name": "Suspicious",
+      "description": "Suspicious or potentially unwanted domains (phishing, scam, questionable reputation)",
+      "output_file": "suspicious.txt",
+      "priority_keywords": [],
+      "sources": {
+        "firebog_suspicious": "https://v.firebog.net/hosts/Prigent-Malware.txt",
+        "oisd_full": "https://hosts.oisd.nl/",
+        "blocklistproject_fraud": "https://blocklistproject.github.io/Lists/fraud.txt",
+        "adguard_phishing": "https://filters.adtidy.org/windows/filters/14.txt",
+        "openphish": "https://openphish.com/feed.txt",
+        "cert_pl": "https://hole.cert.pl/domains/domains.txt",
+        "firebog_malicious": "https://v.firebog.net/hosts/static/w3kbl.txt",
+        "mitchellkrogza_phishing": "https://raw.githubusercontent.com/mitchellkrogza/Phishing.Database/master/phishing-domains-ACTIVE.txt",
+        "spam404": "https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt",
+        "cybercrime_tracker": "https://cybercrime-tracker.net/all.php",
+        "malware_filter": "https://malware-filter.gitlab.io/malware-filter/phishing-filter-hosts.txt",
+        "hagezi_adblock_fake": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/fake.txt"
+      }
+    },
+    "malicious": {
+      "name": "Malicious",
+      "description": "Malware, botnets, ransomware and C2 command-and-control domains",
+      "output_file": "malicious.txt",
+      "priority_keywords": [],
+      "sources": {
+        "firebog_malware": "https://v.firebog.net/hosts/RPiList-Malware.txt",
+        "blocklistproject_malware": "https://blocklistproject.github.io/Lists/malware.txt",
+        "blocklistproject_ransomware": "https://blocklistproject.github.io/Lists/ransomware.txt",
+        "blocklistproject_crypto": "https://blocklistproject.github.io/Lists/crypto.txt",
+        "abuse_ch_urlhaus": "https://urlhaus.abuse.ch/downloads/hostfile/",
+        "threatfox": "https://threatfox.abuse.ch/downloads/hostfile/",
+        "disconnect_malware": "https://s3.amazonaws.com/lists.disconnect.me/simple_malware.txt",
+        "feodotracker_botnet_c2": "https://feodotracker.abuse.ch/blocklist/?download=domainblocklist",
+        "dshield_low": "https://www.dshield.org/feeds/suspiciousdomains_Low.txt",
+        "dshield_high": "https://www.dshield.org/feeds/suspiciousdomains_High.txt",
+        "oisd_knownlists": "https://oisd.nl/knownlists.php",
+        "hagezi_domains_tif": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/tif.txt"
+      }
+    },
+    "adult": {
+      "name": "Adult",
+      "description": "Adult and pornographic content domains",
+      "output_file": "adult.txt",
+      "priority_keywords": [],
+      "sources": {
+        "firebog_adult": "https://v.firebog.net/hosts/Prigent-Adult.txt",
+        "blocklistproject_porn": "https://blocklistproject.github.io/Lists/porn.txt",
+        "stevenblack_adult": "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts",
+        "adguard_parental": "https://filters.adtidy.org/windows/filters/10.txt",
+        "firebog_adult2": "https://v.firebog.net/hosts/Easylist.txt",
+        "chadmayfield_porn_top1m": "https://raw.githubusercontent.com/chadmayfield/my-pihole-blocklists/master/lists/pi_blocklist_porn_top1m.list",
+        "firebog_adult3": "https://v.firebog.net/hosts/AdguardDNS.txt",
+        "tiuxo_adult": "https://raw.githubusercontent.com/tiuxo/hosts/master/porn",
+        "hagezi_adblock_nsfw": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/nsfw.txt"
+      }
+    }
+  },
+  "global_settings": {
+    "timeout": 15,
+    "output_directory": "blocklist",
+    "stats_directory": "blocklist/stats",
+    "encoding": "utf-8"
+  }
+}

@@ -1,0 +1,161 @@
+name: Lyra - Update Domain Blocklist
+
+on:
+  # Schedule: Run every 1 hour
+  schedule:
+    - cron: '0 */1 * * *'  # At minute 0 past every hour
+  
+  # Allow manual trigger
+  workflow_dispatch:
+  
+  # Run on push to main (for testing)
+  push:
+    branches: [ main ]
+    paths: 
+      - 'script/**'
+      - '.github/workflows/update-blocklist.yml'
+
+jobs:
+  update-blocklist:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write  # Required to push changes back to repo
+
+    env:
+      TZ: Asia/Jakarta
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GH_TOKEN || secrets.GITHUB_TOKEN }}
+    
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        cd script
+        pip install -r requirements.txt
+    
+    - name: Create output directories
+      run: |
+        mkdir -p blocklist/stats
+    
+    - name: Run modular blocklist updater
+      run: |
+        echo "🌌 Starting Lyra blocklist update..."
+        cd script
+        python main.py
+        echo "✅ Blocklist update completed"
+    
+    - name: Check for changes
+      id: verify-changed-files
+      run: |
+        if [ -n "$(git status --porcelain)" ]; then
+          echo "changed=true" >> $GITHUB_OUTPUT
+          echo "📝 Changes detected:"
+          git status --short
+        else
+          echo "changed=false" >> $GITHUB_OUTPUT
+          echo "ℹ️ No changes detected"
+        fi
+    
+    - name: Commit and push changes
+      if: steps.verify-changed-files.outputs.changed == 'true'
+      run: |
+        # Configure git
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        
+        # Add files
+        git add blocklist/*.txt
+        git add blocklist/stats/*.json
+        git add README.md
+        
+        # Commit with timestamp (Jakarta timezone)
+        TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S WIB')
+        git commit -m "🌌 Lyra auto update - $TIMESTAMP
+
+        📊 Mapping the universe of threats:
+        - Updated: $TIMESTAMP
+        - Workflow: ${{ github.workflow }}
+        - Run: ${{ github.run_number }}
+
+        [skip ci]"
+        
+        # Push changes
+        git push
+        
+        echo "✅ Changes committed and pushed successfully"
+    
+    - name: Upload artifacts
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: blocklist-data
+        path: |
+          blocklist/
+          README.md
+        retention-days: 30
+    
+    - name: Generate summary
+      if: always()
+      run: |
+        echo "## 🌌 Lyra - Mapping the universe of threats" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        
+        if [ -f "blocklist/stats/combined.json" ]; then
+          TOTAL_CATEGORIES=$(python -c "import json; data=json.load(open('blocklist/stats/combined.json')); print(data.get('total_categories', 0))")
+          TOTAL_DOMAINS=$(python -c "import json; data=json.load(open('blocklist/stats/combined.json')); print(data.get('summary', {}).get('total_domains', 0))")
+          TOTAL_SOURCES=$(python -c "import json; data=json.load(open('blocklist/stats/combined.json')); print(data.get('summary', {}).get('total_sources', 0))")
+          SUCCESSFUL_SOURCES=$(python -c "import json; data=json.load(open('blocklist/stats/combined.json')); print(data.get('summary', {}).get('successful_sources', 0))")
+          
+          echo "### 📊 Overall Statistics" >> $GITHUB_STEP_SUMMARY
+          echo "- **Total Categories**: $TOTAL_CATEGORIES" >> $GITHUB_STEP_SUMMARY
+          echo "- **Total Domains**: $(printf "%'d" $TOTAL_DOMAINS)" >> $GITHUB_STEP_SUMMARY
+          echo "- **Active Sources**: $SUCCESSFUL_SOURCES/$TOTAL_SOURCES" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          echo "### 📂 Categories" >> $GITHUB_STEP_SUMMARY
+
+          # Generate category summary
+          if [ -f "blocklist/gambling.txt" ]; then
+            GAMBLING_COUNT=$(wc -l < blocklist/gambling.txt)
+            echo "- **Gambling**: $GAMBLING_COUNT domains → [gambling.txt](./blocklist/gambling.txt)" >> $GITHUB_STEP_SUMMARY
+          fi
+
+          if [ -f "blocklist/suspicious.txt" ]; then
+            SUSPICIOUS_COUNT=$(wc -l < blocklist/suspicious.txt)
+            echo "- **Suspicious**: $SUSPICIOUS_COUNT domains → [suspicious.txt](./blocklist/suspicious.txt)" >> $GITHUB_STEP_SUMMARY
+          fi
+
+          if [ -f "blocklist/malicious.txt" ]; then
+            MALICIOUS_COUNT=$(wc -l < blocklist/malicious.txt)
+            echo "- **Malicious**: $MALICIOUS_COUNT domains → [malicious.txt](./blocklist/malicious.txt)" >> $GITHUB_STEP_SUMMARY
+          fi
+
+          if [ -f "blocklist/adult.txt" ]; then
+            ADULT_COUNT=$(wc -l < blocklist/adult.txt)
+            echo "- **Adult**: $ADULT_COUNT domains → [adult.txt](./blocklist/adult.txt)" >> $GITHUB_STEP_SUMMARY
+          fi
+          echo "" >> $GITHUB_STEP_SUMMARY
+        fi
+        
+        if [ "${{ steps.verify-changed-files.outputs.changed }}" == "true" ]; then
+          echo "### ✅ Changes Committed" >> $GITHUB_STEP_SUMMARY
+          echo "Blocklist has been updated and changes pushed to repository." >> $GITHUB_STEP_SUMMARY
+        else
+          echo "### ℹ️ No Changes" >> $GITHUB_STEP_SUMMARY
+          echo "No updates were needed - blocklist is up to date." >> $GITHUB_STEP_SUMMARY
+        fi
+        
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "### 🔗 Files" >> $GITHUB_STEP_SUMMARY
+        echo "- [📖 Main README](./README.md)" >> $GITHUB_STEP_SUMMARY
+        echo "- [📊 Combined Statistics](./blocklist/stats/combined.json)" >> $GITHUB_STEP_SUMMARY
+        echo "- [📁 Blocklist Directory](./blocklist/)" >> $GITHUB_STEP_SUMMARY
