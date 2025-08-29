@@ -2,23 +2,23 @@
   "category": "gambling",
   "name": "Gambling",
   "description": "Gambling and betting domains blocklist",
-  "last_updated": "2025-08-29T11:20:06.503385+07:00",
+  "last_updated": "2025-08-29T12:15:51.459370+07:00",
   "output_file": "gambling.txt",
   "total_sources": 11,
   "successful_sources": 11,
   "sources": {
     "hagezi_gambling": {
       "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/gambling-onlydomains.txt",
-      "total_raw": 187764,
-      "last_updated": "2025-08-29T11:19:47.836282+07:00",
+      "total_raw": 187773,
+      "last_updated": "2025-08-29T12:15:29.381963+07:00",
       "status": "success",
-      "total_normalized": 185256,
+      "total_normalized": 185265,
       "priority_count": 0
     },
     "stevenblack_gambling": {
       "url": "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts",
       "total_raw": 247659,
-      "last_updated": "2025-08-29T11:19:48.079913+07:00",
+      "last_updated": "2025-08-29T12:15:29.743778+07:00",
       "status": "success",
       "total_normalized": 101574,
       "priority_count": 0
@@ -26,7 +26,7 @@
     "blocklistproject_gambling": {
       "url": "https://blocklistproject.github.io/Lists/gambling.txt",
       "total_raw": 2515,
-      "last_updated": "2025-08-29T11:19:48.586452+07:00",
+      "last_updated": "2025-08-29T12:15:30.168478+07:00",
       "status": "success",
       "total_normalized": 1111,
       "priority_count": 0
@@ -34,7 +34,7 @@
     "adguard_gambling": {
       "url": "https://filters.adtidy.org/windows/filters/16.txt",
       "total_raw": 17426,
-      "last_updated": "2025-08-29T11:19:48.656466+07:00",
+      "last_updated": "2025-08-29T12:15:30.212469+07:00",
       "status": "success",
       "total_normalized": 7137,
       "priority_count": 0
@@ -42,7 +42,7 @@
     "disconnect_gambling": {
       "url": "https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt",
       "total_raw": 2705,
-      "last_updated": "2025-08-29T11:19:49.615268+07:00",
+      "last_updated": "2025-08-29T12:15:30.535410+07:00",
       "status": "success",
       "total_normalized": 1599,
       "priority_count": 0
@@ -50,7 +50,7 @@
     "masji_pihole_polish_gambling": {
       "url": "https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/gambling-hosts.txt",
       "total_raw": 2639,
-      "last_updated": "2025-08-29T11:19:49.762768+07:00",
+      "last_updated": "2025-08-29T12:15:30.598163+07:00",
       "status": "success",
       "total_normalized": 1239,
       "priority_count": 0
@@ -58,7 +58,7 @@
     "someonewhocares_gambling": {
       "url": "https://someonewhocares.org/hosts/zero/hosts",
       "total_raw": 12128,
-      "last_updated": "2025-08-29T11:19:49.835307+07:00",
+      "last_updated": "2025-08-29T12:15:30.656422+07:00",
       "status": "success",
       "total_normalized": 3833,
       "priority_count": 0
@@ -66,7 +66,7 @@
     "trustpositif_id": {
       "url": "https://raw.githubusercontent.com/alsyundawy/TrustPositif/main/gambling_indonesia.txt",
       "total_raw": 3088629,
-      "last_updated": "2025-08-29T11:19:50.062481+07:00",
+      "last_updated": "2025-08-29T12:15:30.890521+07:00",
       "status": "success",
       "total_normalized": 1520897,
       "priority_count": 0
@@ -74,7 +74,7 @@
     "winhelp2002_gambling": {
       "url": "https://winhelp2002.mvps.org/hosts.txt",
       "total_raw": 9972,
-      "last_updated": "2025-08-29T11:19:50.815537+07:00",
+      "last_updated": "2025-08-29T12:15:35.251252+07:00",
       "status": "success",
       "total_normalized": 607,
       "priority_count": 0
@@ -82,23 +82,23 @@
     "adaway_hosts": {
       "url": "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/BaseFilter/sections/adservers.txt",
       "total_raw": 954,
-      "last_updated": "2025-08-29T11:19:51.747386+07:00",
+      "last_updated": "2025-08-29T12:15:36.245916+07:00",
       "status": "success",
       "total_normalized": 195,
       "priority_count": 0
     },
     "hagezi_adblock_gambling": {
       "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/gambling.txt",
-      "total_raw": 187765,
-      "last_updated": "2025-08-29T11:19:51.822218+07:00",
+      "total_raw": 187774,
+      "last_updated": "2025-08-29T12:15:36.283407+07:00",
       "status": "success",
-      "total_normalized": 185256,
+      "total_normalized": 185265,
       "priority_count": 0
     }
   },
   "existing_count": 2067097,
-  "new_count": 1792893,
-  "newly_added_count": 0,
-  "total_count": 2067097,
+  "new_count": 1792902,
+  "newly_added_count": 9,
+  "total_count": 2067106,
   "priority_count": 0
 }
