@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-08-30T04:14:52.263150+07:00",
+  "last_updated": "2025-08-30T05:15:30.427587+07:00",
   "total_categories": 4,
   "categories": {
     "gambling": {
@@ -8,7 +8,7 @@
       "total_domains": 2067392,
       "sources": 11,
       "successful_sources": 11,
-      "last_updated": "2025-08-30T04:14:08.238475+07:00",
+      "last_updated": "2025-08-30T05:14:45.533289+07:00",
       "output_file": "gambling.txt"
     },
     "suspicious": {
@@ -17,7 +17,7 @@
       "total_domains": 444254,
       "sources": 12,
       "successful_sources": 12,
-      "last_updated": "2025-08-30T04:14:19.723789+07:00",
+      "last_updated": "2025-08-30T05:14:58.611934+07:00",
       "output_file": "suspicious.txt"
     },
     "malicious": {
@@ -26,7 +26,7 @@
       "total_domains": 962651,
       "sources": 12,
       "successful_sources": 12,
-      "last_updated": "2025-08-30T04:14:30.968720+07:00",
+      "last_updated": "2025-08-30T05:15:10.062065+07:00",
       "output_file": "malicious.txt"
     },
     "adult": {
@@ -35,7 +35,7 @@
       "total_domains": 877759,
       "sources": 9,
       "successful_sources": 9,
-      "last_updated": "2025-08-30T04:14:52.105840+07:00",
+      "last_updated": "2025-08-30T05:15:30.272872+07:00",
       "output_file": "adult.txt"
     }
   },
