@@ -4,7 +4,7 @@ From scattered stars to a unified galaxy, collects and harmonizes blocklists fro
 
 ## 📊 Overview Statistics
 
-- **Last Updated**: 2025-09-01 13:06:59 WIB
+- **Last Updated**: 2025-09-01 13:09:05 WIB
 - **Total Categories**: 4
 - **Total Domains**: 4,408,002
 - **Total Sources**: 44
@@ -26,5 +26,5 @@ From scattered stars to a unified galaxy, collects and harmonizes blocklists fro
 
 ---
 
-*Last updated: 2025-09-01 13:06:59 WIB*
+*Last updated: 2025-09-01 13:09:05 WIB*
 *Generated automatically by Lyra - Mapping the universe of threats*
