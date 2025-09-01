@@ -141,21 +141,39 @@ class DomainProcessor:
     
     def load_existing_domains(self, filepath):
         """
-        Load existing domains from a file
-        
+        Load existing domains from a file, ignoring header comments
+
         Args:
             filepath (str): Path to the existing domains file
-            
+
         Returns:
             set: Set of existing domains
         """
         if not os.path.exists(filepath):
             print(f"[INFO] File {filepath} not found. Starting fresh.")
             return set()
-        
+
         try:
+            domains = set()
             with open(filepath, "r", encoding="utf-8") as f:
-                domains = {line.strip() for line in f if line.strip()}
+                in_header = False
+                for line in f:
+                    line = line.strip()
+
+                    # Skip header block
+                    if line.startswith("/**"):
+                        in_header = True
+                        continue
+                    elif line.startswith("**/"):
+                        in_header = False
+                        continue
+                    elif in_header:
+                        continue
+
+                    # Add valid domain lines
+                    if line and not line.startswith("#") and not line.startswith("//"):
+                        domains.add(line)
+
             print(f"[INFO] Loaded {len(domains):,} existing domains from {filepath}")
             return domains
         except Exception as e:

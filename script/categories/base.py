@@ -181,9 +181,19 @@ class BaseCategory(ABC):
         return overall_stats
     
     def _save_domains(self, domains_list):
-        """Save domains list to output file"""
+        """Save domains list to output file with header"""
         encoding = self.global_config.get("encoding", "utf-8")
         with open(self.output_path, "w", encoding=encoding) as f:
+            # Write header
+            f.write("/**\n")
+            f.write("Lyra - Mapping the universe of threats\n")
+            f.write(f"Category: {self.name}\n")
+            f.write("Website: https://blog.intellibron.io/\n")
+            f.write("Copyright 2025 ITSEC R&D\n")
+            f.write("**/\n")
+            f.write("\n")
+
+            # Write domains
             for domain in domains_list:
                 f.write(domain + "\n")
         print(f"[INFO] Saved {len(domains_list):,} domains to {self.output_path}")
