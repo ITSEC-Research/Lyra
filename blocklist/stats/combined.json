@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-09-03T08:20:21.395720+07:00",
+  "last_updated": "2025-09-03T13:27:25.615691+07:00",
   "total_categories": 4,
   "categories": {
     "gambling": {
@@ -8,39 +8,39 @@
       "total_domains": 2077249,
       "sources": 11,
       "successful_sources": 11,
-      "last_updated": "2025-09-03T08:19:37.218554+07:00",
+      "last_updated": "2025-09-03T13:26:39.814426+07:00",
       "output_file": "gambling.txt"
     },
     "suspicious": {
       "name": "Suspicious",
       "description": "Suspicious or potentially unwanted domains (phishing, scam, questionable reputation)",
-      "total_domains": 446994,
+      "total_domains": 447250,
       "sources": 12,
       "successful_sources": 12,
-      "last_updated": "2025-09-03T08:19:48.876106+07:00",
+      "last_updated": "2025-09-03T13:26:52.006722+07:00",
       "output_file": "suspicious.txt"
     },
     "malicious": {
       "name": "Malicious",
       "description": "Malware, botnets, ransomware and C2 command-and-control domains",
-      "total_domains": 1088626,
+      "total_domains": 1088635,
       "sources": 12,
       "successful_sources": 12,
-      "last_updated": "2025-09-03T08:20:00.301259+07:00",
+      "last_updated": "2025-09-03T13:27:04.026643+07:00",
       "output_file": "malicious.txt"
     },
     "adult": {
       "name": "Adult",
       "description": "Adult and pornographic content domains",
-      "total_domains": 897883,
+      "total_domains": 897885,
       "sources": 9,
       "successful_sources": 9,
-      "last_updated": "2025-09-03T08:20:21.244184+07:00",
+      "last_updated": "2025-09-03T13:27:25.464369+07:00",
       "output_file": "adult.txt"
     }
   },
   "summary": {
-    "total_domains": 4510752,
+    "total_domains": 4511019,
     "total_sources": 44,
     "successful_sources": 44
   }
