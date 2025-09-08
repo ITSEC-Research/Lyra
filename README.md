@@ -4,9 +4,9 @@ From scattered stars to a unified galaxy, collects and harmonizes blocklists fro
 
 ## 📊 Overview Statistics
 
-- **Last Updated**: 2025-09-08 19:40:45 WIB
+- **Last Updated**: 2025-09-09 01:28:32 WIB
 - **Total Categories**: 4
-- **Total Domains**: 4,654,483
+- **Total Domains**: 4,661,770
 - **Total Sources**: 44
 - **Active Sources**: 44
 
@@ -14,10 +14,10 @@ From scattered stars to a unified galaxy, collects and harmonizes blocklists fro
 
 | Category | Domains | Sources | Status | File |
 |----------|---------|---------|--------|------|
-| Gambling | 2,089,822 | 11/11 | ✅ Active | [`gambling.txt`](blocklist/gambling.txt) |
-| Suspicious | 453,005 | 12/12 | ✅ Active | [`suspicious.txt`](blocklist/suspicious.txt) |
-| Malicious | 1,201,368 | 12/12 | ✅ Active | [`malicious.txt`](blocklist/malicious.txt) |
-| Adult | 910,288 | 9/9 | ✅ Active | [`adult.txt`](blocklist/adult.txt) |
+| Gambling | 2,089,922 | 11/11 | ✅ Active | [`gambling.txt`](blocklist/gambling.txt) |
+| Suspicious | 453,602 | 12/12 | ✅ Active | [`suspicious.txt`](blocklist/suspicious.txt) |
+| Malicious | 1,207,087 | 12/12 | ✅ Active | [`malicious.txt`](blocklist/malicious.txt) |
+| Adult | 911,159 | 9/9 | ✅ Active | [`adult.txt`](blocklist/adult.txt) |
 
 
 ## 📚 Sources
@@ -26,5 +26,5 @@ From scattered stars to a unified galaxy, collects and harmonizes blocklists fro
 
 ---
 
-*Last updated: 2025-09-08 19:40:45 WIB*
+*Last updated: 2025-09-09 01:28:32 WIB*
 *Generated automatically by Lyra - Mapping the universe of threats*
