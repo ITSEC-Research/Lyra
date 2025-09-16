@@ -29,7 +29,14 @@ class BaseCategory(ABC):
         
         # Initialize core components
         self.fetcher = DomainFetcher(timeout=self.global_config.get("timeout", 15))
-        self.processor = DomainProcessor()
+        
+        # Get whitelist configuration
+        whitelist_config = self.config.get("whitelist", {})
+        whitelist_domains = None
+        if whitelist_config.get("enabled", False):
+            whitelist_domains = whitelist_config.get("domains", [])
+            
+        self.processor = DomainProcessor(whitelist_domains=whitelist_domains)
     
     def _load_config(self):
         """Load configuration from JSON file"""

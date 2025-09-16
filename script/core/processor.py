@@ -9,8 +9,9 @@ import os
 class DomainProcessor:
     """Handles domain processing, validation, and management"""
     
-    def __init__(self):
+    def __init__(self, whitelist_domains=None):
         self.domain_regex = re.compile(r"^(?!-)[A-Za-z0-9-]{1,63}(?<!-)\.[A-Za-z]{2,}$")
+        self.whitelist_domains = set(whitelist_domains) if whitelist_domains else set()
     
     def normalize_domain(self, domain, source_name=None):
         """
@@ -112,6 +113,30 @@ class DomainProcessor:
         """
         return any(keyword in domain for keyword in keywords)
     
+    def is_whitelisted(self, domain):
+        """
+        Check if domain or its parent domains are whitelisted
+        
+        Args:
+            domain (str): Domain to check
+            
+        Returns:
+            bool: True if domain should be whitelisted (excluded from blocklist)
+        """
+        if not self.whitelist_domains:
+            return False
+            
+        # Check exact match
+        if domain in self.whitelist_domains:
+            return True
+        
+        # Check if domain is a subdomain of any whitelisted domain
+        for whitelist_domain in self.whitelist_domains:
+            if domain == whitelist_domain or domain.endswith('.' + whitelist_domain):
+                return True
+                
+        return False
+    
     def process_domains(self, raw_domains, priority_keywords=None, source_name=None):
         """
         Process and normalize a list of raw domains with source-specific handling
@@ -128,14 +153,23 @@ class DomainProcessor:
         """
         normalized_domains = set()
         priority_domains = set()
+        whitelisted_count = 0
 
         for raw_domain in raw_domains:
             domain = self.normalize_domain(raw_domain, source_name)
             if domain and self.is_valid_domain(domain):
+                # Skip whitelisted domains
+                if self.is_whitelisted(domain):
+                    whitelisted_count += 1
+                    continue
+                    
                 normalized_domains.add(domain)
 
                 if priority_keywords and self.has_priority_keywords(domain, priority_keywords):
                     priority_domains.add(domain)
+
+        if whitelisted_count > 0:
+            print(f"[INFO] Filtered out {whitelisted_count:,} whitelisted domains")
 
         return normalized_domains, priority_domains
     

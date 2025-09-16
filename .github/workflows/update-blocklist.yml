@@ -1,9 +1,9 @@
 name: Lyra - Update Domain Blocklist
 
 on:
-  # Schedule: Run every 6 hour
+  # Schedule: Run every 12 hour
   schedule:
-    - cron: '0 */6 * * *'  # At minute 0 past every 6 hour
+    - cron: '0 */12 * * *'  # At minute 0 past every 6 hour
   
   # Allow manual trigger
   workflow_dispatch:
