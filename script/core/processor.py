@@ -49,6 +49,15 @@ class DomainProcessor:
                 else:
                     domain = url
 
+        # Handle OpenPhish feed format (full URLs)
+        if source_name and 'openphish' in source_name and domain.startswith('http'):
+            from urllib.parse import urlparse
+            try:
+                parsed = urlparse(domain)
+                domain = parsed.netloc
+            except:
+                return ""
+
         # Handle AdGuard filter format
         if domain.startswith('||') and domain.endswith('^'):
             domain = domain[2:-1]
@@ -216,30 +225,31 @@ class DomainProcessor:
     
     def merge_domains(self, existing_domains, new_domains, priority_domains=None):
         """
-        Merge existing and new domains with alphabetical sorting
+        Replace existing domains with new domains (refresh mode)
 
         Args:
-            existing_domains (set): Set of existing domains
-            new_domains (set): Set of new domains to add
+            existing_domains (set): Set of existing domains (ignored in refresh mode)
+            new_domains (set): Set of new domains to replace with
             priority_domains (set, optional): Set of priority domains (ignored for general sorting)
 
         Returns:
             tuple: (final_domains_list, merge_stats)
-                final_domains_list (list): Sorted list of all domains
-                merge_stats (dict): Statistics about the merge
+                final_domains_list (list): Sorted list of new domains only
+                merge_stats (dict): Statistics about the replacement
         """
-        # Merge all domains
-        all_domains = existing_domains.union(new_domains)
+        # In refresh mode, we completely replace with new domains
+        final_domains_list = sorted(list(new_domains))
+        
+        # Calculate what was removed and what's new
+        removed_domains = existing_domains - new_domains
         newly_added = new_domains - existing_domains
-
-        # Sort alphabetically (no priority)
-        final_domains_list = sorted(list(all_domains))
 
         merge_stats = {
             'existing_count': len(existing_domains),
             'new_count': len(new_domains),
             'newly_added_count': len(newly_added),
-            'total_count': len(all_domains),
+            'removed_count': len(removed_domains),
+            'total_count': len(new_domains),
             'priority_count': 0  # No priority domains
         }
 

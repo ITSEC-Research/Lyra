@@ -184,7 +184,7 @@ class BaseCategory(ABC):
         # Save stats
         self._save_stats(overall_stats)
         
-        print(f"[INFO] {self.name} blocklist completed: {merge_stats['total_count']:,} domains")
+        print(f"[INFO] {self.name} blocklist refreshed: {merge_stats['total_count']:,} domains (added: {merge_stats['newly_added_count']:,}, removed: {merge_stats.get('removed_count', 0):,})")
         return overall_stats
     
     def _save_domains(self, domains_list):

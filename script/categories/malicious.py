@@ -31,18 +31,19 @@ class MaliciousCategory(BaseCategory):
 
 {stats.get('description', 'Malicious domain blocklist')}
 
-This list is cumulative; domains are only added and never removed to ensure a comprehensive blocklist.
+This list is refreshed from sources; domains are updated based on current threat intelligence.
 
 ## 📊 Statistics
 
 - **Last Updated**: {last_updated}
 - **Total Unique Domains**: {format_number(total_domains)}
 - **Domains Added in Last Run**: {format_number(added_this_run)}
+- **Domains Removed in Last Run**: {format_number(stats.get('removed_count', 0))}
 - **Sources**: {successful_sources}/{total_sources} active
 
 ## 📁 Files
 
-- [`{stats.get('output_file', 'malicious.txt')}`]({stats.get('output_file', 'malicious.txt')}) - Main blocklist file (cumulative)
+- [`{stats.get('output_file', 'malicious.txt')}`]({stats.get('output_file', 'malicious.txt')}) - Main blocklist file (refreshed)
 - [`stats/{self.category_name}.json`](stats/{self.category_name}.json) - Detailed statistics
 
 ## 🔍 Source Breakdown
@@ -72,7 +73,7 @@ This blocklist is automatically updated using a modular system that can be exten
 - **Encoding**: UTF-8
 - **Sorting**: Alphabetical order
 - **Deduplication**: Automatic removal of duplicates
-- **Cumulative**: Domains are never removed, only added
+- **Refresh Mode**: Domains are updated based on current sources
 
 ---
 

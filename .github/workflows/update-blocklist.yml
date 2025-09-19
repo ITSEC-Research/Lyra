@@ -2,8 +2,8 @@ name: Lyra - Update Domain Blocklist
 
 on:
   schedule:
-    # Update at 08:00 & 20:00 WIB (01:00 & 13:00 UTC)
-    - cron: '0 1,13 * * *'
+    # Update at 12:00 PM & 12:00 AM WIB (05:00 & 17:00 UTC)
+    - cron: '0 5,17 * * *'
 
   workflow_dispatch:
 

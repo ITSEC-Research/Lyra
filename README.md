@@ -4,27 +4,27 @@ From scattered stars to a unified galaxy, collects and harmonizes blocklists fro
 
 ## 📊 Overview Statistics
 
-- **Last Updated**: 2025-09-19 09:26:00 WIB
+- **Last Updated**: 2025-09-19 14:10:05 WIB
 - **Total Categories**: 4
-- **Total Domains**: 4,285,305
-- **Total Sources**: 44
-- **Active Sources**: 44
+- **Total Domains**: 3,404,361
+- **Total Sources**: 24
+- **Active Sources**: 24
 
 ## 📂 Available Categories
 
 | Category | Domains | Sources | Status | File |
 |----------|---------|---------|--------|------|
-| Gambling | 1,802,796 | 11/11 | ✅ Active | [`gambling.txt`](blocklist/gambling.txt) |
-| Suspicious | 455,027 | 12/12 | ✅ Active | [`suspicious.txt`](blocklist/suspicious.txt) |
-| Malicious | 1,116,187 | 12/12 | ✅ Active | [`malicious.txt`](blocklist/malicious.txt) |
-| Adult | 911,295 | 9/9 | ✅ Active | [`adult.txt`](blocklist/adult.txt) |
+| Gambling | 1,685,903 | 6/6 | ✅ Active | [`gambling.txt`](blocklist/gambling.txt) |
+| Suspicious | 300,893 | 7/7 | ✅ Active | [`suspicious.txt`](blocklist/suspicious.txt) |
+| Malicious | 665,798 | 7/7 | ✅ Active | [`malicious.txt`](blocklist/malicious.txt) |
+| Adult | 751,767 | 4/4 | ✅ Active | [`adult.txt`](blocklist/adult.txt) |
 
 
 ## 📚 Sources
 
-[Hagezi DNS Blocklists](https://github.com/hagezi/dns-blocklists), [Steven Black Hosts](https://github.com/StevenBlack/hosts), [Blocklist Project](https://blocklistproject.github.io/), [AdGuard Filters](https://adguard.com/en/adguard-browser-extension/filters.html), [Disconnect.me](https://disconnect.me/), [Firebog](https://firebog.net/), [MajkiIT Polish Filters](https://github.com/MajkiIT/polish-ads-filter), [SomeoneWhoCares Hosts](https://someonewhocares.org/hosts/), [TrustPositif Indonesia](https://trustpositif.kominfo.go.id/), [WinHelp2002 Hosts](https://winhelp2002.mvps.org/), [AdAway](https://adaway.org/), [OISD Blocklist](https://oisd.nl/), [OpenPhish](https://openphish.com/), [CERT.PL](https://cert.pl/), [Mitchell Krogza Phishing Database](https://github.com/mitchellkrogza/Phishing.Database), [Spam404](https://github.com/Spam404/lists), [Cybercrime Tracker](https://cybercrime-tracker.net/), [Malware-Filter Project](https://gitlab.com/malware-filter/malware-filter), [Abuse.ch](https://abuse.ch/), [DShield](https://www.dshield.org/), [Chad Mayfield Pi-hole Lists](https://github.com/chadmayfield/my-pihole-blocklists), [Tiuxo Hosts](https://github.com/tiuxo/hosts)
+[Hagezi DNS Blocklists](https://github.com/hagezi/dns-blocklists), [Steven Black Hosts](https://github.com/StevenBlack/hosts), [Blocklist Project](https://blocklistproject.github.io/), [MajkiIT Polish Filters](https://github.com/MajkiIT/polish-ads-filter), [ShadowWhisperer BlockLists](https://github.com/ShadowWhisperer/BlockLists), [TrustPositif Indonesia](https://github.com/alsyundawy/TrustPositif), [OISD Blocklist](https://oisd.nl/), [OpenPhish](https://openphish.com/), [CERT.PL](https://cert.pl/), [Spam404](https://github.com/Spam404/lists), [Malware-Filter Project](https://gitlab.com/malware-filter/malware-filter), [Firebog](https://firebog.net/), [Abuse.ch](https://abuse.ch/)
 
 ---
 
-*Last updated: 2025-09-19 09:26:00 WIB*
+*Last updated: 2025-09-19 14:10:05 WIB*
 *Generated automatically by Lyra - Mapping the universe of threats*

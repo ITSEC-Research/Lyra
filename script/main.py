@@ -64,9 +64,10 @@ def process_category(category_name):
         
         # Skip category README generation - only main README needed
         
-        print(f"\n✅ {category.name} completed successfully!")
+        print(f"\n✅ {category.name} refreshed successfully!")
         print(f"📊 Total domains: {stats.get('total_count', 0):,}")
-        print(f"➕ Domains added this run: {stats.get('newly_added_count', 0):,}")
+        print(f"➕ Domains added: {stats.get('newly_added_count', 0):,}")
+        print(f"➖ Domains removed: {stats.get('removed_count', 0):,}")
         print(f"📡 Active sources: {stats.get('successful_sources', 0)}/{stats.get('total_sources', 0)}")
         
         return stats
