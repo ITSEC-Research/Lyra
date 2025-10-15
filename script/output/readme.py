@@ -84,11 +84,15 @@ From scattered stars to a unified galaxy, collects and harmonizes blocklists fro
 
             readme_content += f"| {name} | {domains_count} | {sources_status} | {status} | [`{output_file}`](blocklist/{output_file}) |\n"
 
+        # Generate unique sources list from all categories
+        unique_sources = self._extract_unique_sources(categories)
+        sources_text = ", ".join(unique_sources)
+
         readme_content += f"""
 
 ## 📚 Sources
 
-[Hagezi DNS Blocklists](https://github.com/hagezi/dns-blocklists), [Steven Black Hosts](https://github.com/StevenBlack/hosts), [Blocklist Project](https://blocklistproject.github.io/), [MajkiIT Polish Filters](https://github.com/MajkiIT/polish-ads-filter), [ShadowWhisperer BlockLists](https://github.com/ShadowWhisperer/BlockLists), [TrustPositif Indonesia](https://github.com/alsyundawy/TrustPositif), [OISD Blocklist](https://oisd.nl/), [OpenPhish](https://openphish.com/), [CERT.PL](https://cert.pl/), [Spam404](https://github.com/Spam404/lists), [Malware-Filter Project](https://gitlab.com/malware-filter/malware-filter), [Firebog](https://firebog.net/), [Abuse.ch](https://abuse.ch/)
+{sources_text}
 
 ---
 
@@ -102,3 +106,38 @@ From scattered stars to a unified galaxy, collects and harmonizes blocklists fro
         
         print(f"[INFO] Generated main README: {readme_path}")
         return readme_path
+
+    def _extract_unique_sources(self, categories):
+        """
+        Extract unique sources from all categories (hardcoded)
+
+        Args:
+            categories (dict): Dictionary of category data
+
+        Returns:
+            list: List of unique source names with links
+        """
+        # Hardcoded unique sources list
+        sources = [
+            "[Hagezi DNS Blocklists](https://github.com/hagezi/dns-blocklists)",
+            "[Steven Black Hosts](https://github.com/StevenBlack/hosts)",
+            "[Blocklist Project](https://blocklistproject.github.io/)",
+            "[MajkiIT Polish Filters](https://github.com/MajkiIT/polish-ads-filter)",
+            "[ShadowWhisperer BlockLists](https://github.com/ShadowWhisperer/BlockLists)",
+            "[TrustPositif Indonesia](https://github.com/alsyundawy/TrustPositif)",
+            "[OISD Blocklist](https://oisd.nl/)",
+            "[OpenPhish](https://openphish.com/)",
+            "[CERT.PL](https://cert.pl/)",
+            "[Spam404](https://github.com/Spam404/lists)",
+            "[Malware-Filter Project](https://gitlab.com/malware-filter/malware-filter)",
+            "[Firebog](https://firebog.net/)",
+            "[Abuse.ch](https://abuse.ch/)",
+            "[AdGuard DNS Filter](https://github.com/AdguardTeam/AdGuardSDNSFilter)",
+            "[AWAvenue Ads Rule](https://github.com/TG-Twilight/AWAvenue-Ads-Rule)",
+            "[Peter Lowe's Ad Server List](https://pgl.yoyo.org/adservers/)",
+            "[1Hosts](https://github.com/badmojr/1Hosts)",
+            "[Dan Pollock's Hosts](https://someonewhocares.org/hosts/)",
+            "[ABPindo](https://github.com/ABPindo/indonesianadblockrules)"
+        ]
+
+        return sources
