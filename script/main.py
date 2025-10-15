@@ -7,7 +7,7 @@ import sys
 import os
 import argparse
 import json
-from categories import GamblingCategory, SuspiciousCategory, MaliciousCategory, AdultCategory
+from categories import GamblingCategory, SuspiciousCategory, MaliciousCategory, AdultCategory, AdsCategory
 from output import OutputGenerator, ReadmeGenerator
 
 # Registry of available categories
@@ -15,7 +15,8 @@ CATEGORY_REGISTRY = {
     'gambling': GamblingCategory,
     'suspicious': SuspiciousCategory,
     'malicious': MaliciousCategory,
-    'adult': AdultCategory
+    'adult': AdultCategory,
+    'ads': AdsCategory
 }
 
 def get_available_categories():

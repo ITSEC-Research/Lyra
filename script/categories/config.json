@@ -55,6 +55,27 @@
         "firebog_prigent_adult": "https://v.firebog.net/hosts/Prigent-Adult.txt",
         "blocklistproject_porn": "https://blocklistproject.github.io/Lists/porn.txt"
       }
+    },
+    "ads": {
+      "name": "Ads",
+      "description": "Advertising and tracking domains blocklist",
+      "output_file": "ads.txt",
+      "priority_keywords": [],
+      "sources": {
+        "adguard_dns_filter": "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt",
+        "awavenue_ads_rule": "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt",
+        "yoyo_adservers": "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&showintro=1&mimetype=plaintext",
+        "1hosts_lite": "https://cdn.jsdelivr.net/gh/badmojr/1Hosts@master/Lite/adblock.txt",
+        "someonewhocares_hosts": "https://someonewhocares.org/hosts/zero/hosts",
+        "hagezi_multi": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/multi.txt",
+        "hagezi_pro": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.txt",
+        "hagezi_pro_plus": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt",
+        "hagezi_ultimate": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/ultimate.txt",
+        "oisd_small": "https://small.oisd.nl/",
+        "oisd_big": "https://big.oisd.nl/",
+        "stevenblack_hosts": "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
+        "abpindo_aghome": "https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/aghome.txt"
+      }
     }
   },
   "global_settings": {
