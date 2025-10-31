@@ -2,23 +2,23 @@
   "category": "adult",
   "name": "Adult",
   "description": "Adult and pornographic content domains",
-  "last_updated": "2025-10-31T00:11:04.736497+07:00",
+  "last_updated": "2025-10-31T12:12:02.894454+07:00",
   "output_file": "adult.txt",
   "total_sources": 4,
   "successful_sources": 4,
   "sources": {
     "hagezi_nsfw": {
       "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/nsfw-onlydomains.txt",
-      "total_raw": 69633,
-      "last_updated": "2025-10-31T00:10:04.096425+07:00",
+      "total_raw": 72284,
+      "last_updated": "2025-10-31T12:11:32.890615+07:00",
       "status": "success",
-      "total_normalized": 67402,
+      "total_normalized": 69923,
       "priority_count": 0
     },
     "stevenblack_porn_only": {
       "url": "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-only/hosts",
       "total_raw": 75558,
-      "last_updated": "2025-10-31T00:10:04.549799+07:00",
+      "last_updated": "2025-10-31T12:11:33.097698+07:00",
       "status": "success",
       "total_normalized": 41255,
       "priority_count": 0
@@ -26,7 +26,7 @@
     "firebog_prigent_adult": {
       "url": "https://v.firebog.net/hosts/Prigent-Adult.txt",
       "total_raw": 4643759,
-      "last_updated": "2025-10-31T00:10:04.658383+07:00",
+      "last_updated": "2025-10-31T12:11:33.155436+07:00",
       "status": "success",
       "total_normalized": 658698,
       "priority_count": 0
@@ -34,16 +34,16 @@
     "blocklistproject_porn": {
       "url": "https://blocklistproject.github.io/Lists/porn.txt",
       "total_raw": 500303,
-      "last_updated": "2025-10-31T00:10:05.649311+07:00",
+      "last_updated": "2025-10-31T12:11:33.931060+07:00",
       "status": "success",
       "total_normalized": 265285,
       "priority_count": 0
     }
   },
-  "existing_count": 728841,
-  "new_count": 730227,
-  "newly_added_count": 1947,
-  "removed_count": 561,
-  "total_count": 730227,
+  "existing_count": 730227,
+  "new_count": 731858,
+  "newly_added_count": 1638,
+  "removed_count": 7,
+  "total_count": 731858,
   "priority_count": 0
 }
