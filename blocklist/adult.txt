@@ -626211,7 +626211,6 @@ telegqam.online
 telegqam.top
 telegqem.fit
 telegqem.work
-telegra.ph
 telegraf.top
 telegram-1.org
 telegram-1i.org
