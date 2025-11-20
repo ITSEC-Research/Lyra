@@ -2,7 +2,7 @@
   "category": "malicious",
   "name": "Malicious",
   "description": "Malware, botnets, ransomware and C2 command-and-control domains",
-  "last_updated": "2025-11-20T00:10:15.635927+07:00",
+  "last_updated": "2025-11-20T12:11:21.142645+07:00",
   "output_file": "malicious.txt",
   "total_sources": 7,
   "successful_sources": 7,
@@ -10,7 +10,7 @@
     "firebog_prigent_malware": {
       "url": "https://v.firebog.net/hosts/Prigent-Malware.txt",
       "total_raw": 258986,
-      "last_updated": "2025-11-20T00:09:58.417253+07:00",
+      "last_updated": "2025-11-20T12:11:03.977876+07:00",
       "status": "success",
       "total_normalized": 198749,
       "priority_count": 0
@@ -18,7 +18,7 @@
     "blocklistproject_malware": {
       "url": "https://blocklistproject.github.io/Lists/malware.txt",
       "total_raw": 435377,
-      "last_updated": "2025-11-20T00:09:58.938321+07:00",
+      "last_updated": "2025-11-20T12:11:04.131252+07:00",
       "status": "success",
       "total_normalized": 184517,
       "priority_count": 0
@@ -26,7 +26,7 @@
     "blocklistproject_ransomware": {
       "url": "https://blocklistproject.github.io/Lists/ransomware.txt",
       "total_raw": 1919,
-      "last_updated": "2025-11-20T00:09:59.083330+07:00",
+      "last_updated": "2025-11-20T12:11:04.374620+07:00",
       "status": "success",
       "total_normalized": 235,
       "priority_count": 0
@@ -34,40 +34,40 @@
     "blocklistproject_crypto": {
       "url": "https://blocklistproject.github.io/Lists/crypto.txt",
       "total_raw": 23800,
-      "last_updated": "2025-11-20T00:09:59.122672+07:00",
+      "last_updated": "2025-11-20T12:11:04.432709+07:00",
       "status": "success",
       "total_normalized": 6997,
       "priority_count": 0
     },
     "urlhaus_abuse_ch": {
       "url": "https://urlhaus.abuse.ch/downloads/hostfile/",
-      "total_raw": 745,
-      "last_updated": "2025-11-20T00:09:59.175686+07:00",
+      "total_raw": 751,
+      "last_updated": "2025-11-20T12:11:04.519152+07:00",
       "status": "success",
-      "total_normalized": 368,
+      "total_normalized": 344,
       "priority_count": 0
     },
     "threatfox_abuse_ch": {
       "url": "https://threatfox.abuse.ch/downloads/hostfile/",
-      "total_raw": 40283,
-      "last_updated": "2025-11-20T00:09:59.254662+07:00",
+      "total_raw": 40333,
+      "last_updated": "2025-11-20T12:11:04.652530+07:00",
       "status": "success",
-      "total_normalized": 19414,
+      "total_normalized": 19412,
       "priority_count": 0
     },
     "hagezi_tif": {
       "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/tif.txt",
-      "total_raw": 618086,
-      "last_updated": "2025-11-20T00:09:59.449236+07:00",
+      "total_raw": 618711,
+      "last_updated": "2025-11-20T12:11:05.006129+07:00",
       "status": "success",
-      "total_normalized": 520581,
+      "total_normalized": 521008,
       "priority_count": 0
     }
   },
-  "existing_count": 838770,
-  "new_count": 838926,
-  "newly_added_count": 4667,
-  "removed_count": 4511,
-  "total_count": 838926,
+  "existing_count": 838926,
+  "new_count": 839389,
+  "newly_added_count": 493,
+  "removed_count": 30,
+  "total_count": 839389,
   "priority_count": 0
 }
