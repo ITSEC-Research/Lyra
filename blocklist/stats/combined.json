@@ -1,55 +1,55 @@
 {
-  "last_updated": "2026-01-04T12:19:21.171182+07:00",
+  "last_updated": "2026-01-05T00:09:40.976323+07:00",
   "total_categories": 5,
   "categories": {
     "gambling": {
       "name": "Gambling",
       "description": "Gambling and betting domains blocklist",
-      "total_domains": 1696027,
+      "total_domains": 1693849,
       "sources": 6,
       "successful_sources": 6,
-      "last_updated": "2026-01-04T12:17:52.462801+07:00",
+      "last_updated": "2026-01-05T00:08:26.791345+07:00",
       "output_file": "gambling.txt"
     },
     "suspicious": {
       "name": "Suspicious",
       "description": "Suspicious or potentially unwanted domains (phishing, scam, questionable reputation)",
-      "total_domains": 323590,
+      "total_domains": 322729,
       "sources": 7,
       "successful_sources": 7,
-      "last_updated": "2026-01-04T12:18:08.199377+07:00",
+      "last_updated": "2026-01-05T00:08:38.359351+07:00",
       "output_file": "suspicious.txt"
     },
     "malicious": {
       "name": "Malicious",
       "description": "Malware, botnets, ransomware and C2 command-and-control domains",
-      "total_domains": 833654,
+      "total_domains": 832661,
       "sources": 7,
       "successful_sources": 7,
-      "last_updated": "2026-01-04T12:18:25.456314+07:00",
+      "last_updated": "2026-01-05T00:08:53.970176+07:00",
       "output_file": "malicious.txt"
     },
     "adult": {
       "name": "Adult",
       "description": "Adult and pornographic content domains",
-      "total_domains": 739984,
+      "total_domains": 739655,
       "sources": 4,
       "successful_sources": 4,
-      "last_updated": "2026-01-04T12:18:56.503644+07:00",
+      "last_updated": "2026-01-05T00:09:21.654727+07:00",
       "output_file": "adult.txt"
     },
     "ads": {
       "name": "Ads",
       "description": "Advertising and tracking domains blocklist",
-      "total_domains": 281507,
+      "total_domains": 281349,
       "sources": 13,
       "successful_sources": 13,
-      "last_updated": "2026-01-04T12:19:21.127994+07:00",
+      "last_updated": "2026-01-05T00:09:40.932556+07:00",
       "output_file": "ads.txt"
     }
   },
   "summary": {
-    "total_domains": 3874762,
+    "total_domains": 3870243,
     "total_sources": 37,
     "successful_sources": 37
   }
