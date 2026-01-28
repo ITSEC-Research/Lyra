@@ -2,23 +2,23 @@
   "category": "ads",
   "name": "Ads",
   "description": "Advertising and tracking domains blocklist",
-  "last_updated": "2026-01-28T12:21:08.999069+07:00",
+  "last_updated": "2026-01-29T00:25:24.476258+07:00",
   "output_file": "ads.txt",
   "total_sources": 13,
   "successful_sources": 12,
   "sources": {
     "adguard_dns_filter": {
       "url": "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt",
-      "total_raw": 143793,
-      "last_updated": "2026-01-28T12:20:34.497590+07:00",
+      "total_raw": 143961,
+      "last_updated": "2026-01-29T00:24:53.678613+07:00",
       "status": "success",
-      "total_normalized": 67818,
+      "total_normalized": 67985,
       "priority_count": 0
     },
     "awavenue_ads_rule": {
       "url": "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt",
       "total_raw": 921,
-      "last_updated": "2026-01-28T12:20:34.577122+07:00",
+      "last_updated": "2026-01-29T00:24:53.879342+07:00",
       "status": "success",
       "total_normalized": 56,
       "priority_count": 0
@@ -26,77 +26,77 @@
     "yoyo_adservers": {
       "url": "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&showintro=1&mimetype=plaintext",
       "total_raw": 0,
-      "last_updated": "2026-01-28T12:20:34.713540+07:00",
+      "last_updated": "2026-01-29T00:24:53.944160+07:00",
       "status": "error"
     },
     "1hosts_lite": {
       "url": "https://cdn.jsdelivr.net/gh/badmojr/1Hosts@master/Lite/adblock.txt",
-      "total_raw": 92279,
-      "last_updated": "2026-01-28T12:20:44.737242+07:00",
+      "total_raw": 92675,
+      "last_updated": "2026-01-29T00:25:03.961517+07:00",
       "status": "success",
-      "total_normalized": 50279,
+      "total_normalized": 50422,
       "priority_count": 0
     },
     "someonewhocares_hosts": {
       "url": "https://someonewhocares.org/hosts/zero/hosts",
       "total_raw": 12222,
-      "last_updated": "2026-01-28T12:20:44.947626+07:00",
+      "last_updated": "2026-01-29T00:25:04.543704+07:00",
       "status": "success",
       "total_normalized": 3855,
       "priority_count": 0
     },
     "hagezi_multi": {
       "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/multi.txt",
-      "total_raw": 133573,
-      "last_updated": "2026-01-28T12:20:45.005245+07:00",
+      "total_raw": 134506,
+      "last_updated": "2026-01-29T00:25:04.626291+07:00",
       "status": "success",
-      "total_normalized": 87244,
+      "total_normalized": 87690,
       "priority_count": 0
     },
     "hagezi_pro": {
       "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.txt",
-      "total_raw": 173730,
-      "last_updated": "2026-01-28T12:20:45.515581+07:00",
+      "total_raw": 174867,
+      "last_updated": "2026-01-29T00:25:04.781862+07:00",
       "status": "success",
-      "total_normalized": 113675,
+      "total_normalized": 114189,
       "priority_count": 0
     },
     "hagezi_pro_plus": {
       "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt",
-      "total_raw": 219294,
-      "last_updated": "2026-01-28T12:20:45.696761+07:00",
+      "total_raw": 218516,
+      "last_updated": "2026-01-29T00:25:04.936797+07:00",
       "status": "success",
-      "total_normalized": 134458,
+      "total_normalized": 133286,
       "priority_count": 0
     },
     "hagezi_ultimate": {
       "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/ultimate.txt",
-      "total_raw": 299614,
-      "last_updated": "2026-01-28T12:20:45.886106+07:00",
+      "total_raw": 284000,
+      "last_updated": "2026-01-29T00:25:05.090885+07:00",
       "status": "success",
-      "total_normalized": 175797,
+      "total_normalized": 163633,
       "priority_count": 0
     },
     "oisd_small": {
       "url": "https://small.oisd.nl/",
-      "total_raw": 49653,
-      "last_updated": "2026-01-28T12:20:46.950822+07:00",
+      "total_raw": 49775,
+      "last_updated": "2026-01-29T00:25:05.317889+07:00",
       "status": "success",
-      "total_normalized": 34492,
+      "total_normalized": 34614,
       "priority_count": 0
     },
     "oisd_big": {
       "url": "https://big.oisd.nl/",
-      "total_raw": 212425,
-      "last_updated": "2026-01-28T12:20:48.482589+07:00",
+      "total_raw": 212958,
+      "last_updated": "2026-01-29T00:25:06.376402+07:00",
       "status": "success",
-      "total_normalized": 143530,
+      "total_normalized": 144020,
       "priority_count": 0
     },
     "stevenblack_hosts": {
       "url": "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
       "total_raw": 78709,
-      "last_updated": "2026-01-28T12:20:50.070826+07:00",
+      "last_updated": "2026-01-29T00:25:07.405136+07:00",
       "status": "success",
       "total_normalized": 24147,
       "priority_count": 0
@@ -104,16 +104,16 @@
     "abpindo_aghome": {
       "url": "https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/aghome.txt",
       "total_raw": 134,
-      "last_updated": "2026-01-28T12:20:50.130155+07:00",
+      "last_updated": "2026-01-29T00:25:07.511946+07:00",
       "status": "success",
       "total_normalized": 111,
       "priority_count": 0
     }
   },
-  "existing_count": 211684,
-  "new_count": 290119,
-  "newly_added_count": 78590,
-  "removed_count": 155,
-  "total_count": 290119,
+  "existing_count": 290119,
+  "new_count": 289657,
+  "newly_added_count": 5655,
+  "removed_count": 6117,
+  "total_count": 289657,
   "priority_count": 0
 }
