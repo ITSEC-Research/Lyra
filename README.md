@@ -4,9 +4,9 @@ From scattered stars to a unified galaxy, collects and harmonizes blocklists fro
 
 ## 📊 Overview Statistics
 
-- **Last Updated**: 2026-01-29 00:25:24 WIB
+- **Last Updated**: 2026-01-29 12:37:22 WIB
 - **Total Categories**: 5
-- **Total Domains**: 3,877,245
+- **Total Domains**: 3,877,922
 - **Total Sources**: 37
 - **Active Sources**: 36
 
@@ -14,11 +14,11 @@ From scattered stars to a unified galaxy, collects and harmonizes blocklists fro
 
 | Category | Domains | Sources | Status | File |
 |----------|---------|---------|--------|------|
-| Gambling | 1,682,381 | 6/6 | ✅ Active | [`gambling.txt`](blocklist/gambling.txt) |
-| Suspicious | 320,282 | 7/7 | ✅ Active | [`suspicious.txt`](blocklist/suspicious.txt) |
-| Malicious | 855,086 | 7/7 | ✅ Active | [`malicious.txt`](blocklist/malicious.txt) |
-| Adult | 729,839 | 4/4 | ✅ Active | [`adult.txt`](blocklist/adult.txt) |
-| Ads | 289,657 | 12/13 | ✅ Active | [`ads.txt`](blocklist/ads.txt) |
+| Gambling | 1,682,361 | 6/6 | ✅ Active | [`gambling.txt`](blocklist/gambling.txt) |
+| Suspicious | 320,414 | 7/7 | ✅ Active | [`suspicious.txt`](blocklist/suspicious.txt) |
+| Malicious | 855,302 | 7/7 | ✅ Active | [`malicious.txt`](blocklist/malicious.txt) |
+| Adult | 729,852 | 4/4 | ✅ Active | [`adult.txt`](blocklist/adult.txt) |
+| Ads | 289,993 | 12/13 | ✅ Active | [`ads.txt`](blocklist/ads.txt) |
 
 
 ## 📚 Sources
@@ -27,5 +27,5 @@ From scattered stars to a unified galaxy, collects and harmonizes blocklists fro
 
 ---
 
-*Last updated: 2026-01-29 00:25:24 WIB*
+*Last updated: 2026-01-29 12:37:22 WIB*
 *Generated automatically by Lyra - Mapping the universe of threats*
