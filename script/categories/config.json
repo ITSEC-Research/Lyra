@@ -133,7 +133,8 @@
       "cloudflare.com",
       "cloudflare.net",
       "telegra.ph",
-      "t.co"
+      "t.co",
+      "core-code-studio.vercel.app"
     ]
   }
 }
