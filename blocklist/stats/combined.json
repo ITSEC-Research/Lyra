@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-10T11:48:27.990331+07:00",
+  "last_updated": "2026-02-10T13:05:49.623065+07:00",
   "total_categories": 5,
   "categories": {
     "gambling": {
@@ -8,16 +8,16 @@
       "total_domains": 1690151,
       "sources": 6,
       "successful_sources": 6,
-      "last_updated": "2026-02-10T11:47:01.357507+07:00",
+      "last_updated": "2026-02-10T13:04:22.733792+07:00",
       "output_file": "gambling.txt"
     },
     "suspicious": {
       "name": "Suspicious",
       "description": "Suspicious or potentially unwanted domains (phishing, scam, questionable reputation)",
-      "total_domains": 320448,
+      "total_domains": 320444,
       "sources": 7,
       "successful_sources": 7,
-      "last_updated": "2026-02-10T11:47:15.921356+07:00",
+      "last_updated": "2026-02-10T13:04:37.468619+07:00",
       "output_file": "suspicious.txt"
     },
     "malicious": {
@@ -26,7 +26,7 @@
       "total_domains": 893626,
       "sources": 7,
       "successful_sources": 7,
-      "last_updated": "2026-02-10T11:47:34.732039+07:00",
+      "last_updated": "2026-02-10T13:04:55.148546+07:00",
       "output_file": "malicious.txt"
     },
     "adult": {
@@ -35,21 +35,21 @@
       "total_domains": 730614,
       "sources": 4,
       "successful_sources": 4,
-      "last_updated": "2026-02-10T11:48:03.062292+07:00",
+      "last_updated": "2026-02-10T13:05:24.233565+07:00",
       "output_file": "adult.txt"
     },
     "ads": {
       "name": "Ads",
       "description": "Advertising and tracking domains blocklist",
-      "total_domains": 308193,
+      "total_domains": 308208,
       "sources": 13,
       "successful_sources": 13,
-      "last_updated": "2026-02-10T11:48:27.951400+07:00",
+      "last_updated": "2026-02-10T13:05:49.579890+07:00",
       "output_file": "ads.txt"
     }
   },
   "summary": {
-    "total_domains": 3943032,
+    "total_domains": 3943043,
     "total_sources": 37,
     "successful_sources": 37
   }
