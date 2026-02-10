@@ -32,11 +32,16 @@ class BaseCategory(ABC):
         
         # Get whitelist configuration
         whitelist_config = self.config.get("whitelist", {})
-        whitelist_domains = None
+        whitelist_wildcard = None
+        whitelist_exact = None
         if whitelist_config.get("enabled", False):
-            whitelist_domains = whitelist_config.get("domains", [])
-            
-        self.processor = DomainProcessor(whitelist_domains=whitelist_domains)
+            whitelist_wildcard = whitelist_config.get("wildcard", [])
+            whitelist_exact = whitelist_config.get("exact", [])
+
+        self.processor = DomainProcessor(
+            whitelist_wildcard=whitelist_wildcard,
+            whitelist_exact=whitelist_exact
+        )
     
     def _load_config(self):
         """Load configuration from JSON file"""

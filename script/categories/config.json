@@ -86,9 +86,9 @@
   },
   "whitelist": {
     "enabled": true,
-    "domains": [
+    "wildcard": [
       "google.com",
-      "youtube.com", 
+      "youtube.com",
       "gmail.com",
       "googleapis.com",
       "gstatic.com",
@@ -135,7 +135,10 @@
       "telegra.ph",
       "t.co",
       "vercel.app",
-      "camscanner.com"
-    ]
+      "camscanner.com",
+      "page.link",
+      "app-analytics-services.com"
+    ],
+    "exact": []
   }
 }

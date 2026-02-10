@@ -9,9 +9,10 @@ import os
 class DomainProcessor:
     """Handles domain processing, validation, and management"""
     
-    def __init__(self, whitelist_domains=None):
+    def __init__(self, whitelist_wildcard=None, whitelist_exact=None):
         self.domain_regex = re.compile(r"^(?!-)[A-Za-z0-9-]{1,63}(?<!-)\.[A-Za-z]{2,}$")
-        self.whitelist_domains = set(whitelist_domains) if whitelist_domains else set()
+        self.whitelist_wildcard = set(whitelist_wildcard) if whitelist_wildcard else set()
+        self.whitelist_exact = set(whitelist_exact) if whitelist_exact else set()
     
     def normalize_domain(self, domain, source_name=None):
         """
@@ -124,7 +125,7 @@ class DomainProcessor:
     
     def is_whitelisted(self, domain):
         """
-        Check if domain or its parent domains are whitelisted
+        Check if domain is whitelisted via exact match or wildcard (subdomain) match
         
         Args:
             domain (str): Domain to check
@@ -132,18 +133,20 @@ class DomainProcessor:
         Returns:
             bool: True if domain should be whitelisted (excluded from blocklist)
         """
-        if not self.whitelist_domains:
+        if not self.whitelist_wildcard and not self.whitelist_exact:
             return False
-            
-        # Check exact match
-        if domain in self.whitelist_domains:
+
+        # Check exact-only whitelist (O(1) set lookup)
+        if domain in self.whitelist_exact:
             return True
-        
-        # Check if domain is a subdomain of any whitelisted domain
-        for whitelist_domain in self.whitelist_domains:
-            if domain == whitelist_domain or domain.endswith('.' + whitelist_domain):
+
+        # Check wildcard whitelist: exact match + subdomain match
+        if domain in self.whitelist_wildcard:
+            return True
+        for wl_domain in self.whitelist_wildcard:
+            if domain.endswith('.' + wl_domain):
                 return True
-                
+
         return False
     
     def process_domains(self, raw_domains, priority_keywords=None, source_name=None):
