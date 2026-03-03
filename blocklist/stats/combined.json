@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-03T12:49:35.721394+07:00",
+  "last_updated": "2026-03-03T13:24:12.779748+07:00",
   "total_categories": 5,
   "categories": {
     "gambling": {
@@ -8,25 +8,25 @@
       "total_domains": 1700488,
       "sources": 6,
       "successful_sources": 6,
-      "last_updated": "2026-03-03T12:48:06.510672+07:00",
+      "last_updated": "2026-03-03T13:22:49.071134+07:00",
       "output_file": "gambling.txt"
     },
     "suspicious": {
       "name": "Suspicious",
       "description": "Suspicious or potentially unwanted domains (phishing, scam, questionable reputation)",
-      "total_domains": 323212,
+      "total_domains": 323221,
       "sources": 7,
       "successful_sources": 7,
-      "last_updated": "2026-03-03T12:48:21.404063+07:00",
+      "last_updated": "2026-03-03T13:23:02.159528+07:00",
       "output_file": "suspicious.txt"
     },
     "malicious": {
       "name": "Malicious",
       "description": "Malware, botnets, ransomware and C2 command-and-control domains",
-      "total_domains": 889491,
+      "total_domains": 889489,
       "sources": 7,
       "successful_sources": 7,
-      "last_updated": "2026-03-03T12:48:40.124493+07:00",
+      "last_updated": "2026-03-03T13:23:20.075582+07:00",
       "output_file": "malicious.txt"
     },
     "adult": {
@@ -35,21 +35,21 @@
       "total_domains": 736124,
       "sources": 4,
       "successful_sources": 4,
-      "last_updated": "2026-03-03T12:49:10.828785+07:00",
+      "last_updated": "2026-03-03T13:23:50.956057+07:00",
       "output_file": "adult.txt"
     },
     "ads": {
       "name": "Ads",
       "description": "Advertising and tracking domains blocklist",
-      "total_domains": 265607,
+      "total_domains": 265671,
       "sources": 13,
       "successful_sources": 13,
-      "last_updated": "2026-03-03T12:49:35.680637+07:00",
+      "last_updated": "2026-03-03T13:24:12.739272+07:00",
       "output_file": "ads.txt"
     }
   },
   "summary": {
-    "total_domains": 3914922,
+    "total_domains": 3914993,
     "total_sources": 37,
     "successful_sources": 37
   }
