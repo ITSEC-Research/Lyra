@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-03-03T12:41:41.420591+07:00",
+  "last_updated": "2026-03-03T12:49:35.721394+07:00",
   "total_categories": 5,
   "categories": {
     "gambling": {
       "name": "Gambling",
       "description": "Gambling and betting domains blocklist",
-      "total_domains": 1700489,
+      "total_domains": 1700488,
       "sources": 6,
       "successful_sources": 6,
-      "last_updated": "2026-03-03T12:40:21.136806+07:00",
+      "last_updated": "2026-03-03T12:48:06.510672+07:00",
       "output_file": "gambling.txt"
     },
     "suspicious": {
@@ -17,7 +17,7 @@
       "total_domains": 323212,
       "sources": 7,
       "successful_sources": 7,
-      "last_updated": "2026-03-03T12:40:32.770239+07:00",
+      "last_updated": "2026-03-03T12:48:21.404063+07:00",
       "output_file": "suspicious.txt"
     },
     "malicious": {
@@ -26,7 +26,7 @@
       "total_domains": 889491,
       "sources": 7,
       "successful_sources": 7,
-      "last_updated": "2026-03-03T12:40:49.920424+07:00",
+      "last_updated": "2026-03-03T12:48:40.124493+07:00",
       "output_file": "malicious.txt"
     },
     "adult": {
@@ -35,7 +35,7 @@
       "total_domains": 736124,
       "sources": 4,
       "successful_sources": 4,
-      "last_updated": "2026-03-03T12:41:20.013564+07:00",
+      "last_updated": "2026-03-03T12:49:10.828785+07:00",
       "output_file": "adult.txt"
     },
     "ads": {
@@ -44,12 +44,12 @@
       "total_domains": 265607,
       "sources": 13,
       "successful_sources": 13,
-      "last_updated": "2026-03-03T12:41:41.374536+07:00",
+      "last_updated": "2026-03-03T12:49:35.680637+07:00",
       "output_file": "ads.txt"
     }
   },
   "summary": {
-    "total_domains": 3914923,
+    "total_domains": 3914922,
     "total_sources": 37,
     "successful_sources": 37
   }
