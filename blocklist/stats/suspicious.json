@@ -2,31 +2,31 @@
   "category": "suspicious",
   "name": "Suspicious",
   "description": "Suspicious or potentially unwanted domains (phishing, scam, questionable reputation)",
-  "last_updated": "2026-03-04T12:36:56.228670+07:00",
+  "last_updated": "2026-03-05T00:29:42.573960+07:00",
   "output_file": "suspicious.txt",
   "total_sources": 7,
   "successful_sources": 7,
   "sources": {
     "hagezi_fake": {
       "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/fake-onlydomains.txt",
-      "total_raw": 14243,
-      "last_updated": "2026-03-04T12:36:42.661603+07:00",
+      "total_raw": 14192,
+      "last_updated": "2026-03-05T00:29:27.246475+07:00",
       "status": "success",
-      "total_normalized": 13607,
+      "total_normalized": 13555,
       "priority_count": 0
     },
     "oisd_big": {
       "url": "https://big.oisd.nl/",
-      "total_raw": 268492,
-      "last_updated": "2026-03-04T12:36:42.841861+07:00",
+      "total_raw": 223028,
+      "last_updated": "2026-03-05T00:29:27.378068+07:00",
       "status": "success",
-      "total_normalized": 175597,
+      "total_normalized": 134004,
       "priority_count": 0
     },
     "blocklistproject_fraud": {
       "url": "https://blocklistproject.github.io/Lists/fraud.txt",
       "total_raw": 196095,
-      "last_updated": "2026-03-04T12:36:44.326546+07:00",
+      "last_updated": "2026-03-05T00:29:29.442906+07:00",
       "status": "success",
       "total_normalized": 100256,
       "priority_count": 0
@@ -34,40 +34,40 @@
     "openphish_feed": {
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
       "total_raw": 300,
-      "last_updated": "2026-03-04T12:36:44.540649+07:00",
+      "last_updated": "2026-03-05T00:29:29.773034+07:00",
       "status": "success",
-      "total_normalized": 54,
+      "total_normalized": 57,
       "priority_count": 0
     },
     "cert_pl_domains": {
       "url": "https://hole.cert.pl/domains/v2/domains.txt",
-      "total_raw": 143957,
-      "last_updated": "2026-03-04T12:36:44.574382+07:00",
+      "total_raw": 143912,
+      "last_updated": "2026-03-05T00:29:29.803978+07:00",
       "status": "success",
-      "total_normalized": 109031,
+      "total_normalized": 108962,
       "priority_count": 0
     },
     "spam404_main": {
       "url": "https://raw.githubusercontent.com/Spam404/lists/refs/heads/master/main-blacklist.txt",
       "total_raw": 8140,
-      "last_updated": "2026-03-04T12:36:45.969400+07:00",
+      "last_updated": "2026-03-05T00:29:31.402423+07:00",
       "status": "success",
       "total_normalized": 7442,
       "priority_count": 0
     },
     "malware_filter_phishing": {
       "url": "https://malware-filter.gitlab.io/malware-filter/phishing-filter-hosts.txt",
-      "total_raw": 23808,
-      "last_updated": "2026-03-04T12:36:46.078538+07:00",
+      "total_raw": 23795,
+      "last_updated": "2026-03-05T00:29:31.612388+07:00",
       "status": "success",
-      "total_normalized": 4079,
+      "total_normalized": 4084,
       "priority_count": 0
     }
   },
-  "existing_count": 363907,
-  "new_count": 364111,
-  "newly_added_count": 357,
-  "removed_count": 153,
-  "total_count": 364111,
+  "existing_count": 364111,
+  "new_count": 323935,
+  "newly_added_count": 4447,
+  "removed_count": 44623,
+  "total_count": 323935,
   "priority_count": 0
 }
