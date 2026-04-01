@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-01T13:21:55.619137+07:00",
+  "last_updated": "2026-04-01T14:38:26.811770+07:00",
   "total_categories": 5,
   "categories": {
     "gambling": {
@@ -8,25 +8,25 @@
       "total_domains": 1710632,
       "sources": 6,
       "successful_sources": 6,
-      "last_updated": "2026-04-01T13:20:13.157661+07:00",
+      "last_updated": "2026-04-01T14:36:41.601750+07:00",
       "output_file": "gambling.txt"
     },
     "suspicious": {
       "name": "Suspicious",
       "description": "Suspicious or potentially unwanted domains (phishing, scam, questionable reputation)",
-      "total_domains": 385361,
+      "total_domains": 385368,
       "sources": 7,
       "successful_sources": 7,
-      "last_updated": "2026-04-01T13:20:30.764946+07:00",
+      "last_updated": "2026-04-01T14:36:58.938834+07:00",
       "output_file": "suspicious.txt"
     },
     "malicious": {
       "name": "Malicious",
       "description": "Malware, botnets, ransomware and C2 command-and-control domains",
-      "total_domains": 1214690,
+      "total_domains": 1214689,
       "sources": 7,
       "successful_sources": 7,
-      "last_updated": "2026-04-01T13:20:56.656144+07:00",
+      "last_updated": "2026-04-01T14:37:24.008200+07:00",
       "output_file": "malicious.txt"
     },
     "adult": {
@@ -35,21 +35,21 @@
       "total_domains": 686061,
       "sources": 4,
       "successful_sources": 4,
-      "last_updated": "2026-04-01T13:21:27.185205+07:00",
+      "last_updated": "2026-04-01T14:37:54.280028+07:00",
       "output_file": "adult.txt"
     },
     "ads": {
       "name": "Ads",
       "description": "Advertising and tracking domains blocklist",
-      "total_domains": 360288,
+      "total_domains": 360307,
       "sources": 13,
       "successful_sources": 13,
-      "last_updated": "2026-04-01T13:21:55.552978+07:00",
+      "last_updated": "2026-04-01T14:38:26.757055+07:00",
       "output_file": "ads.txt"
     }
   },
   "summary": {
-    "total_domains": 4357032,
+    "total_domains": 4357057,
     "total_sources": 37,
     "successful_sources": 37
   }
