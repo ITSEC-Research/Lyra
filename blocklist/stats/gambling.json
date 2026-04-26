@@ -2,23 +2,23 @@
   "category": "gambling",
   "name": "Gambling",
   "description": "Gambling and betting domains blocklist",
-  "last_updated": "2026-04-26T00:29:15.215677+07:00",
+  "last_updated": "2026-04-26T13:52:57.159151+07:00",
   "output_file": "gambling.txt",
   "total_sources": 6,
   "successful_sources": 6,
   "sources": {
     "hagezi_gambling": {
       "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/gambling-onlydomains.txt",
-      "total_raw": 215516,
-      "last_updated": "2026-04-26T00:28:44.282516+07:00",
+      "total_raw": 215451,
+      "last_updated": "2026-04-26T13:52:27.586918+07:00",
       "status": "success",
-      "total_normalized": 206220,
+      "total_normalized": 206162,
       "priority_count": 0
     },
     "blocklistproject_gambling": {
       "url": "https://blocklistproject.github.io/Lists/gambling.txt",
       "total_raw": 2513,
-      "last_updated": "2026-04-26T00:28:44.749295+07:00",
+      "last_updated": "2026-04-26T13:52:27.808882+07:00",
       "status": "success",
       "total_normalized": 1111,
       "priority_count": 0
@@ -26,7 +26,7 @@
     "majki_polish_gambling": {
       "url": "https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/gambling-hosts.txt",
       "total_raw": 2642,
-      "last_updated": "2026-04-26T00:28:44.860230+07:00",
+      "last_updated": "2026-04-26T13:52:27.858142+07:00",
       "status": "success",
       "total_normalized": 1242,
       "priority_count": 0
@@ -34,7 +34,7 @@
     "shadowwhisperer_gambling": {
       "url": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/RAW/Gambling",
       "total_raw": 9553,
-      "last_updated": "2026-04-26T00:28:44.954331+07:00",
+      "last_updated": "2026-04-26T13:52:27.916105+07:00",
       "status": "success",
       "total_normalized": 9264,
       "priority_count": 0
@@ -42,7 +42,7 @@
     "stevenblack_gambling_only": {
       "url": "https://raw.githubusercontent.com/StevenBlack/hosts/refs/heads/master/alternates/gambling-only/hosts",
       "total_raw": 6045,
-      "last_updated": "2026-04-26T00:28:45.059230+07:00",
+      "last_updated": "2026-04-26T13:52:27.989392+07:00",
       "status": "success",
       "total_normalized": 3557,
       "priority_count": 0
@@ -50,16 +50,16 @@
     "trustpositif_indonesia": {
       "url": "https://raw.githubusercontent.com/alsyundawy/TrustPositif/refs/heads/main/gambling_indonesia_domainonly.txt",
       "total_raw": 1574784,
-      "last_updated": "2026-04-26T00:28:45.174231+07:00",
+      "last_updated": "2026-04-26T13:52:28.062907+07:00",
       "status": "success",
       "total_normalized": 1520491,
       "priority_count": 0
     }
   },
-  "existing_count": 1712934,
-  "new_count": 1716160,
-  "newly_added_count": 5492,
-  "removed_count": 2266,
-  "total_count": 1716160,
+  "existing_count": 1716160,
+  "new_count": 1716107,
+  "newly_added_count": 0,
+  "removed_count": 53,
+  "total_count": 1716107,
   "priority_count": 0
 }
