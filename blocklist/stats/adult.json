@@ -2,23 +2,23 @@
   "category": "adult",
   "name": "Adult",
   "description": "Adult and pornographic content domains",
-  "last_updated": "2026-06-28T00:54:29.195575+07:00",
+  "last_updated": "2026-06-28T15:16:41.174120+07:00",
   "output_file": "adult.txt",
   "total_sources": 4,
   "successful_sources": 4,
   "sources": {
     "hagezi_nsfw": {
       "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/nsfw-onlydomains.txt",
-      "total_raw": 102477,
-      "last_updated": "2026-06-28T00:53:59.566745+07:00",
+      "total_raw": 102887,
+      "last_updated": "2026-06-28T15:16:08.541659+07:00",
       "status": "success",
-      "total_normalized": 99143,
+      "total_normalized": 99550,
       "priority_count": 0
     },
     "stevenblack_porn_only": {
       "url": "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-only/hosts",
       "total_raw": 76796,
-      "last_updated": "2026-06-28T00:53:59.677269+07:00",
+      "last_updated": "2026-06-28T15:16:08.916644+07:00",
       "status": "success",
       "total_normalized": 41825,
       "priority_count": 0
@@ -26,24 +26,24 @@
     "firebog_prigent_adult": {
       "url": "https://v.firebog.net/hosts/Prigent-Adult.txt",
       "total_raw": 4592059,
-      "last_updated": "2026-06-28T00:53:59.844910+07:00",
+      "last_updated": "2026-06-28T15:16:09.005281+07:00",
       "status": "success",
       "total_normalized": 613924,
       "priority_count": 0
     },
     "blocklistproject_porn": {
       "url": "https://blocklistproject.github.io/Lists/porn.txt",
-      "total_raw": 500284,
-      "last_updated": "2026-06-28T00:54:00.722543+07:00",
+      "total_raw": 500285,
+      "last_updated": "2026-06-28T15:16:09.870127+07:00",
       "status": "success",
-      "total_normalized": 265299,
+      "total_normalized": 265300,
       "priority_count": 0
     }
   },
-  "existing_count": 708005,
-  "new_count": 707893,
-  "newly_added_count": 447,
-  "removed_count": 559,
-  "total_count": 707893,
+  "existing_count": 707893,
+  "new_count": 708220,
+  "newly_added_count": 330,
+  "removed_count": 3,
+  "total_count": 708220,
   "priority_count": 0
 }
