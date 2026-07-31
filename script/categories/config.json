@@ -35,7 +35,6 @@
       "output_file": "malicious.txt",
       "priority_keywords": [],
       "sources": {
-        "firebog_prigent_malware": "https://v.firebog.net/hosts/Prigent-Malware.txt",
         "blocklistproject_malware": "https://blocklistproject.github.io/Lists/malware.txt",
         "blocklistproject_ransomware": "https://blocklistproject.github.io/Lists/ransomware.txt",
         "blocklistproject_crypto": "https://blocklistproject.github.io/Lists/crypto.txt",
