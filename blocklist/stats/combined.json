@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-11T00:43:23.978072+07:00",
+  "last_updated": "2026-08-11T12:46:29.292590+07:00",
   "total_categories": 5,
   "categories": {
     "gambling": {
@@ -8,25 +8,25 @@
       "total_domains": 1828090,
       "sources": 6,
       "successful_sources": 5,
-      "last_updated": "2026-08-11T00:41:29.853611+07:00",
+      "last_updated": "2026-08-11T12:44:44.268256+07:00",
       "output_file": "gambling.txt"
     },
     "suspicious": {
       "name": "Suspicious",
       "description": "Suspicious or potentially unwanted domains (phishing, scam, questionable reputation)",
-      "total_domains": 333321,
+      "total_domains": 333123,
       "sources": 7,
       "successful_sources": 6,
-      "last_updated": "2026-08-11T00:41:46.783848+07:00",
+      "last_updated": "2026-08-11T12:45:00.154012+07:00",
       "output_file": "suspicious.txt"
     },
     "malicious": {
       "name": "Malicious",
       "description": "Malware, botnets, ransomware and C2 command-and-control domains",
-      "total_domains": 2121677,
+      "total_domains": 2121664,
       "sources": 6,
       "successful_sources": 5,
-      "last_updated": "2026-08-11T00:42:29.062927+07:00",
+      "last_updated": "2026-08-11T12:45:38.859131+07:00",
       "output_file": "malicious.txt"
     },
     "adult": {
@@ -35,21 +35,21 @@
       "total_domains": 938905,
       "sources": 4,
       "successful_sources": 3,
-      "last_updated": "2026-08-11T00:43:06.800624+07:00",
+      "last_updated": "2026-08-11T12:46:13.835631+07:00",
       "output_file": "adult.txt"
     },
     "ads": {
       "name": "Ads",
       "description": "Advertising and tracking domains blocklist",
-      "total_domains": 227927,
+      "total_domains": 227709,
       "sources": 13,
       "successful_sources": 9,
-      "last_updated": "2026-08-11T00:43:23.948911+07:00",
+      "last_updated": "2026-08-11T12:46:29.262106+07:00",
       "output_file": "ads.txt"
     }
   },
   "summary": {
-    "total_domains": 5449920,
+    "total_domains": 5449491,
     "total_sources": 36,
     "successful_sources": 28
   }

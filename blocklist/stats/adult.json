@@ -2,7 +2,7 @@
   "category": "adult",
   "name": "Adult",
   "description": "Adult and pornographic content domains",
-  "last_updated": "2026-08-11T00:43:06.800624+07:00",
+  "last_updated": "2026-08-11T12:46:13.835631+07:00",
   "output_file": "adult.txt",
   "total_sources": 4,
   "successful_sources": 3,
@@ -10,13 +10,13 @@
     "hagezi_nsfw": {
       "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/nsfw-onlydomains.txt",
       "total_raw": 0,
-      "last_updated": "2026-08-11T00:42:29.720694+07:00",
+      "last_updated": "2026-08-11T12:45:39.516914+07:00",
       "status": "error"
     },
     "stevenblack_porn_only": {
       "url": "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-only/hosts",
       "total_raw": 76822,
-      "last_updated": "2026-08-11T00:42:29.775112+07:00",
+      "last_updated": "2026-08-11T12:45:39.556602+07:00",
       "status": "success",
       "total_normalized": 41851,
       "priority_count": 0
@@ -24,7 +24,7 @@
     "firebog_prigent_adult": {
       "url": "https://v.firebog.net/hosts/Prigent-Adult.txt",
       "total_raw": 4592059,
-      "last_updated": "2026-08-11T00:42:29.952742+07:00",
+      "last_updated": "2026-08-11T12:45:39.628255+07:00",
       "status": "success",
       "total_normalized": 613924,
       "priority_count": 0
@@ -32,7 +32,7 @@
     "blocklistproject_porn": {
       "url": "https://blocklistproject.github.io/Lists/porn.txt",
       "total_raw": 953406,
-      "last_updated": "2026-08-11T00:42:30.878085+07:00",
+      "last_updated": "2026-08-11T12:45:40.738794+07:00",
       "status": "success",
       "total_normalized": 634033,
       "priority_count": 0
