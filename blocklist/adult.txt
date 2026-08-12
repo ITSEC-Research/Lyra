@@ -399328,6 +399328,7 @@ javhdz.pro
 javhdz.red
 javhdz.today
 javhdz.top
+javhdz.wine
 javhdz.xxx
 javhead.com
 javhee.com
@@ -641308,6 +641309,7 @@ qmgyyy.com
 qmgyyy.net
 qmgyyy.org
 qmh.best
+qmh.garden
 qmh.quest
 qmh.rest
 qmh.sex
