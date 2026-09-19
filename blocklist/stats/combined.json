@@ -1,32 +1,32 @@
 {
-  "last_updated": "2026-09-19T16:04:09.089183+07:00",
+  "last_updated": "2026-09-20T02:03:48.214588+07:00",
   "total_categories": 5,
   "categories": {
     "gambling": {
       "name": "Gambling",
       "description": "Gambling and betting domains blocklist",
-      "total_domains": 1987362,
+      "total_domains": 1992744,
       "sources": 6,
       "successful_sources": 6,
-      "last_updated": "2026-09-19T16:02:24.582557+07:00",
+      "last_updated": "2026-09-20T02:01:41.759231+07:00",
       "output_file": "gambling.txt"
     },
     "suspicious": {
       "name": "Suspicious",
       "description": "Suspicious or potentially unwanted domains (phishing, scam, questionable reputation)",
-      "total_domains": 344851,
+      "total_domains": 344830,
       "sources": 7,
       "successful_sources": 7,
-      "last_updated": "2026-09-19T16:02:42.380060+07:00",
+      "last_updated": "2026-09-20T02:01:58.843555+07:00",
       "output_file": "suspicious.txt"
     },
     "malicious": {
       "name": "Malicious",
       "description": "Malware, botnets, ransomware and C2 command-and-control domains",
-      "total_domains": 2122441,
+      "total_domains": 2122589,
       "sources": 6,
       "successful_sources": 5,
-      "last_updated": "2026-09-19T16:03:13.234717+07:00",
+      "last_updated": "2026-09-20T02:02:42.011900+07:00",
       "output_file": "malicious.txt"
     },
     "adult": {
@@ -35,21 +35,21 @@
       "total_domains": 947991,
       "sources": 4,
       "successful_sources": 4,
-      "last_updated": "2026-09-19T16:03:41.754878+07:00",
+      "last_updated": "2026-09-20T02:03:20.823302+07:00",
       "output_file": "adult.txt"
     },
     "ads": {
       "name": "Ads",
       "description": "Advertising and tracking domains blocklist",
-      "total_domains": 301106,
+      "total_domains": 301194,
       "sources": 13,
       "successful_sources": 13,
-      "last_updated": "2026-09-19T16:04:09.043298+07:00",
+      "last_updated": "2026-09-20T02:03:48.166804+07:00",
       "output_file": "ads.txt"
     }
   },
   "summary": {
-    "total_domains": 5703751,
+    "total_domains": 5709348,
     "total_sources": 36,
     "successful_sources": 35
   }
