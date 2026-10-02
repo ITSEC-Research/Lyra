@@ -2,7 +2,7 @@
   "category": "malicious",
   "name": "Malicious",
   "description": "Malware, botnets, ransomware and C2 command-and-control domains",
-  "last_updated": "2026-10-02T17:47:44.730906+07:00",
+  "last_updated": "2026-10-03T04:06:01.755861+07:00",
   "output_file": "malicious.txt",
   "total_sources": 6,
   "successful_sources": 5,
@@ -10,7 +10,7 @@
     "blocklistproject_malware": {
       "url": "https://blocklistproject.github.io/Lists/malware.txt",
       "total_raw": 2656406,
-      "last_updated": "2026-10-02T17:47:02.850877+07:00",
+      "last_updated": "2026-10-03T04:05:22.810306+07:00",
       "status": "success",
       "total_normalized": 2109295,
       "priority_count": 0
@@ -18,7 +18,7 @@
     "blocklistproject_ransomware": {
       "url": "https://blocklistproject.github.io/Lists/ransomware.txt",
       "total_raw": 1917,
-      "last_updated": "2026-10-02T17:47:04.833657+07:00",
+      "last_updated": "2026-10-03T04:05:24.087895+07:00",
       "status": "success",
       "total_normalized": 235,
       "priority_count": 0
@@ -26,7 +26,7 @@
     "blocklistproject_crypto": {
       "url": "https://blocklistproject.github.io/Lists/crypto.txt",
       "total_raw": 1278,
-      "last_updated": "2026-10-02T17:47:04.884994+07:00",
+      "last_updated": "2026-10-03T04:05:24.363357+07:00",
       "status": "success",
       "total_normalized": 1245,
       "priority_count": 0
@@ -34,30 +34,30 @@
     "urlhaus_abuse_ch": {
       "url": "https://urlhaus.abuse.ch/downloads/hostfile/",
       "total_raw": 406,
-      "last_updated": "2026-10-02T17:47:04.919100+07:00",
+      "last_updated": "2026-10-03T04:05:24.463854+07:00",
       "status": "success",
-      "total_normalized": 223,
+      "total_normalized": 221,
       "priority_count": 0
     },
     "threatfox_abuse_ch": {
       "url": "https://threatfox.abuse.ch/downloads/hostfile/",
-      "total_raw": 43143,
-      "last_updated": "2026-10-02T17:47:04.977723+07:00",
+      "total_raw": 43339,
+      "last_updated": "2026-10-03T04:05:24.784110+07:00",
       "status": "success",
-      "total_normalized": 17869,
+      "total_normalized": 18027,
       "priority_count": 0
     },
     "hagezi_tif": {
       "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/tif.txt",
       "total_raw": 0,
-      "last_updated": "2026-10-02T17:47:05.130715+07:00",
+      "last_updated": "2026-10-03T04:05:25.110668+07:00",
       "status": "error"
     }
   },
-  "existing_count": 2125248,
-  "new_count": 2125298,
-  "newly_added_count": 617,
-  "removed_count": 567,
-  "total_count": 2125298,
+  "existing_count": 2125298,
+  "new_count": 2125460,
+  "newly_added_count": 169,
+  "removed_count": 7,
+  "total_count": 2125460,
   "priority_count": 0
 }
