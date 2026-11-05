@@ -2,7 +2,7 @@
   "category": "malicious",
   "name": "Malicious",
   "description": "Malware, botnets, ransomware and C2 command-and-control domains",
-  "last_updated": "2026-11-05T19:49:55.955507+07:00",
+  "last_updated": "2026-11-06T05:26:50.042082+07:00",
   "output_file": "malicious.txt",
   "total_sources": 6,
   "successful_sources": 3,
@@ -10,7 +10,7 @@
     "blocklistproject_malware": {
       "url": "https://blocklistproject.github.io/Lists/malware.txt",
       "total_raw": 2656406,
-      "last_updated": "2026-11-05T19:49:28.206602+07:00",
+      "last_updated": "2026-11-06T05:26:09.991859+07:00",
       "status": "success",
       "total_normalized": 2109295,
       "priority_count": 0
@@ -18,7 +18,7 @@
     "blocklistproject_ransomware": {
       "url": "https://blocklistproject.github.io/Lists/ransomware.txt",
       "total_raw": 1917,
-      "last_updated": "2026-11-05T19:49:29.482707+07:00",
+      "last_updated": "2026-11-06T05:26:10.762140+07:00",
       "status": "success",
       "total_normalized": 235,
       "priority_count": 0
@@ -26,7 +26,7 @@
     "blocklistproject_crypto": {
       "url": "https://blocklistproject.github.io/Lists/crypto.txt",
       "total_raw": 1278,
-      "last_updated": "2026-11-05T19:49:29.614277+07:00",
+      "last_updated": "2026-11-06T05:26:10.853607+07:00",
       "status": "success",
       "total_normalized": 1245,
       "priority_count": 0
@@ -34,19 +34,19 @@
     "urlhaus_abuse_ch": {
       "url": "https://urlhaus.abuse.ch/downloads/hostfile/",
       "total_raw": 0,
-      "last_updated": "2026-11-05T19:49:29.653906+07:00",
+      "last_updated": "2026-11-06T05:26:10.978322+07:00",
       "status": "error"
     },
     "threatfox_abuse_ch": {
       "url": "https://threatfox.abuse.ch/downloads/hostfile/",
       "total_raw": 0,
-      "last_updated": "2026-11-05T19:49:29.711787+07:00",
+      "last_updated": "2026-11-06T05:26:11.110140+07:00",
       "status": "error"
     },
     "hagezi_tif": {
       "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/tif.txt",
       "total_raw": 0,
-      "last_updated": "2026-11-05T19:49:29.845878+07:00",
+      "last_updated": "2026-11-06T05:26:11.277436+07:00",
       "status": "error"
     }
   },
