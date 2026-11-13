@@ -1,23 +1,23 @@
 {
-  "last_updated": "2026-11-13T19:43:32.995686+07:00",
+  "last_updated": "2026-11-14T05:19:02.088037+07:00",
   "total_categories": 5,
   "categories": {
     "gambling": {
       "name": "Gambling",
       "description": "Gambling and betting domains blocklist",
-      "total_domains": 2131287,
+      "total_domains": 2131288,
       "sources": 6,
       "successful_sources": 6,
-      "last_updated": "2026-11-13T19:41:50.157675+07:00",
+      "last_updated": "2026-11-14T05:16:50.982013+07:00",
       "output_file": "gambling.txt"
     },
     "suspicious": {
       "name": "Suspicious",
       "description": "Suspicious or potentially unwanted domains (phishing, scam, questionable reputation)",
-      "total_domains": 332580,
+      "total_domains": 332809,
       "sources": 7,
       "successful_sources": 7,
-      "last_updated": "2026-11-13T19:42:05.571589+07:00",
+      "last_updated": "2026-11-14T05:17:08.601788+07:00",
       "output_file": "suspicious.txt"
     },
     "malicious": {
@@ -26,7 +26,7 @@
       "total_domains": 2110438,
       "sources": 6,
       "successful_sources": 3,
-      "last_updated": "2026-11-13T19:42:37.739407+07:00",
+      "last_updated": "2026-11-14T05:17:52.320438+07:00",
       "output_file": "malicious.txt"
     },
     "adult": {
@@ -35,21 +35,21 @@
       "total_domains": 954971,
       "sources": 4,
       "successful_sources": 4,
-      "last_updated": "2026-11-13T19:43:08.130424+07:00",
+      "last_updated": "2026-11-14T05:18:32.298456+07:00",
       "output_file": "adult.txt"
     },
     "ads": {
       "name": "Ads",
       "description": "Advertising and tracking domains blocklist",
-      "total_domains": 287394,
+      "total_domains": 287808,
       "sources": 13,
       "successful_sources": 13,
-      "last_updated": "2026-11-13T19:43:32.942809+07:00",
+      "last_updated": "2026-11-14T05:19:02.031016+07:00",
       "output_file": "ads.txt"
     }
   },
   "summary": {
-    "total_domains": 5816670,
+    "total_domains": 5817314,
     "total_sources": 36,
     "successful_sources": 33
   }
